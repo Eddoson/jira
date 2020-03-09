@@ -374,7 +374,7 @@ export GPG_TTY=$(tty)
 ```
 
 #### `gopass` password source
-There is also the possibility to use [gopass](https://www.gopass.pw/) as a password source. `gopass` (like `pass`) uses gpg to encrypt/decrypt passwords. To use `gopass` for password storagte and retrieval via `go-jira` just add this configuration to `$HOME/.jira.d/config.yml`:
+There is also the possibility to use [gopass](https://www.gopass.pw/) as a password source. `gopass` (like `pass`) uses gpg to encrypt/decrypt passwords. To use `gopass` for password storage and retrieval via `go-jira` just add this configuration to `$HOME/.jira.d/config.yml`:
 ```yaml
 password-source: gopass
 password-name: jira.example.com/myuser
